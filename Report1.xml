@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="DESKTOP-JVRVE5J" name="pytest" skipped="0" tests="4" time="0.115" timestamp="2022-10-10T16:25:51.903903"><testcase classname="multiple_test" name="test_method1" time="0.003"><failure message="assert 10 == 20">def test_method1():
+        x=10
+        y=20
+&gt;       assert x==y
+E       assert 10 == 20
+
+multiple_test.py:7: AssertionError</failure></testcase><testcase classname="multiple_test" name="test_method2" time="0.001" /><testcase classname="test_four" name="test_response" time="0.002" /><testcase classname="third_test.MyTestCase" name="test_something" time="0.001"><failure message="AssertionError: True != False">self = &lt;third_test.MyTestCase testMethod=test_something&gt;
+
+    def test_something(self):
+&gt;       self.assertEqual(True, False)  # add assertion here
+E       AssertionError: True != False
+
+third_test.py:6: AssertionError</failure></testcase></testsuite></testsuites>
